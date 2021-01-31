@@ -8,8 +8,10 @@ namespace MyDictionary
         {
 
             Dict<int, string> mydict = new Dict<int, string>();
-            mydict.Add(1, "asdf");
-            //Console.WriteLine(mydict.Numara[0] + " " + mydict.Deger[0]);
+            mydict.Add(1, "elma");
+            mydict.Add(2, "armut");
+            Console.WriteLine(mydict.Numara[0] + " " + mydict.Deger[0]);
+            Console.WriteLine(mydict.Numara[1] + " " + mydict.Deger[1]);
 
         }
     }
@@ -22,8 +24,8 @@ namespace MyDictionary
 
         public Dict()
         {
-            Tkey[] numara = new Tkey[0];
-            Tvalue[] deger = new Tvalue[0];
+            numara = new Tkey[0];
+            deger = new Tvalue[0];
 
         }
 
